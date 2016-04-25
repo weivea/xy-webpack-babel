@@ -1,0 +1,43 @@
+{
+  "name": "xy-webpack-babel",
+  "packageClass": "xy-webpack-babel",
+  "packageClassName": "xy-webpack-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node _cfgBuild/for_dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "color": "^0.11.1",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "glob": "^7.0.3",
+    "gulp": "^3.9.1",
+    "gulp-html-helper": "^1.0.0",
+    "html-loader": "^0.4.3",
+    "less": "^2.6.1",
+    "less-loader": "^2.2.3",
+    "md5-file": "^2.0.4",
+    "postcss-loader": "^0.8.2",
+    "qiniu": "^6.1.9",
+    "rimraf": "^2.5.2",
+    "style-loader": "^0.13.1",
+    "superagent": "^1.8.3",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.0"
+  },
+  "dependencies": {
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.0"
+  }
+}
