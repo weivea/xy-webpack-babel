@@ -5,11 +5,10 @@
 var qiniu = require('qiniu');
 var request = require('superagent');
 var config = {
-  'ACCESS_KEY': 'g9GphEdJKkAh7OcgeEWmCA2GamhkfPPVr64QTW_u',
-  'SECRET_KEY': 'iUnqzzqz9Ro3tnyQyb12cwBA2NsEGZglpdSzl5wH',
-  'Bucket_Name': 'static',
-  'Domain': 'https://dn-xiaoying-static.qbox.me/'
-
+  'ACCESS_KEY': '',
+  'SECRET_KEY': '',
+  'Bucket_Name': '',
+  'Domain': 'https://static.qbox.me/'
 };
 var uptoken,token,client;
 
